@@ -23,11 +23,25 @@ class Animal {
 }
 
 class Dog extends Animal {
-  // YOUR CODE HERE
+  // YOUR CODE HEREg
+  constructor() {
+    super('dog'); 
+  }
+
+  speak() {
+    return 'The dog barks'; 
+  }
 }
 
 class Cat extends Animal {
   // YOUR CODE HERE
+  constructor() {
+    super('cat'); 
+  }
+
+  speak() {
+    return 'The cat meows'; 
+  }
 }
 
 
